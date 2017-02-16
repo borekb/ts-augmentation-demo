@@ -1,0 +1,14 @@
+{
+  "name": "ts-augmentation-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "request": "^2.79.0"
+  },
+  "devDependencies": {
+    "@types/request": "0.0.40"
+  },
+  "author": "",
+  "license": "ISC"
+}
