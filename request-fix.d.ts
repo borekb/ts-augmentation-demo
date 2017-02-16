@@ -5,9 +5,9 @@
  * 
  */
 
-// declare module 'request' {
-//     import * as http from 'http';
-//     export interface RequestResponse extends http.IncomingMessage {
-//         body: any;
-//     }
-// }
+ import * as http from 'http';
+ declare module 'request' {
+     export interface RequestResponse extends http.IncomingMessage {
+         body: any;
+     }
+ }
